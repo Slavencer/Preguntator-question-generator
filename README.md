@@ -1,6 +1,11 @@
 # Preguntator-question-generator
 This is a simple script to help you convert a pdf to the txt format that preguntator expects.
 
+Remember to install pdf plumber!
+```
+pip install pdfplumber
+```
+
 It only removes part of the work, but for now you still have to:
 - if an option is several lines, it will need to be put into one.
 - set the correct option, as different pdfs will set the correct option differently
